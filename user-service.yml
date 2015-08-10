@@ -12,9 +12,9 @@ spring:
            ddl-auto: update
            dialect: org.hibernate.dialect.MySQLDialect
            show-sql: false
-    security:
-       user:
-          password: password     
+security:
+    user:
+       password: password     
 server:
     port: 7777
 
