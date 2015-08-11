@@ -1,21 +1,9 @@
 spring:
     application:
-        name: user-service
-    datasource:
-        driverClassName: com.mysql.jdbc.Driver
-        url: jdbc:mysql://localhost/user-service
-        username: userservice
-        password: userservice
-        
-    jpa:
-        hibernate:
-           ddl-auto: update
-           dialect: org.hibernate.dialect.MySQLDialect
-           show-sql: false
+        name: oauth-server
 security:
     user:
        password: password
-           
 server:
     port: 9999
 
